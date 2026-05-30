@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "discord-tools"
+version = "0.1.0"
+description = "Discord server cleanup utility"
+authors = []
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31"
+rich = "^13.7"
+python-dotenv = "^1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry-core.masonry.api"
